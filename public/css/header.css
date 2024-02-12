@@ -1,39 +1,39 @@
 @font-face {
     font-family: 'SF Pro Text';
-    src: url('../storage/fonts/SFProText-Bold.woff2') format('woff2'),
-        url('../storage/fonts/SFProText-Bold.woff') format('woff');
+    src: url('../fonts/SFProText-Bold.woff2') format('woff2'),
+        url('../fonts/SFProText-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SF Pro Text';
-    src: url('../storage/fonts/SFProText-Medium.woff2') format('woff2'),
-        url('../storage/fonts/SFProText-Medium.woff') format('woff');
+    src: url('../fonts/SFProText-Medium.woff2') format('woff2'),
+        url('../fonts/SFProText-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SF Pro Text';
-    src: url('../storage/fonts/SFProText-Regular.woff2') format('woff2'),
-        url('../storage/fonts/SFProText-Regular.woff') format('woff');
+    src: url('../fonts/SFProText-Regular.woff2') format('woff2'),
+        url('../fonts/SFProText-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SF Pro Text';
-    src: url('../storage/fonts/SFProText-Semibold.woff2') format('woff2'),
-        url('../storage/fonts/SFProText-Semibold.woff') format('woff');
+    src: url('../fonts/SFProText-Semibold.woff2') format('woff2'),
+        url('../fonts/SFProText-Semibold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SF Pro Text';
-    src: url('../storage/fonts/SFProText-Light.woff2') format('woff2'),
-        url('../storage/fonts/SFProText-Light.woff') format('woff');
+    src: url('../fonts/SFProText-Light.woff2') format('woff2'),
+        url('../fonts/SFProText-Light.woff') format('woff');
     font-weight: 200;
     font-style: normal;
 }
@@ -364,7 +364,7 @@ a.soc-tg {
 	display: block;
 	width: 8px;
 	height: 5px;
-	background: url(../storage/images/ico-arrow-down.svg) no-repeat;
+	background: url(../images/ico-arrow-down.svg) no-repeat;
 	right: 11px;
     top: 15px;
 }
@@ -464,7 +464,7 @@ a.soc-tg {
 	display: block;
 	width: 8px;
 	height: 5px;
-	background: url(../storage/images/ico-arrow-down.svg) no-repeat;
+	background: url(../images/ico-arrow-down.svg) no-repeat;
 	right: 11px;
     top: 25px;
 }
@@ -581,19 +581,19 @@ a.soc-tg {
 	transition: .2s;
 }
 .slider-banner .slick-prev {
-	background: url(../storage/images/slider-prev-white.svg) 50% 50% no-repeat;
+	background: url(../images/slider-prev-white.svg) 50% 50% no-repeat;
 	left: calc(50% - 700px);
 }
 .slider-banner .slick-prev:hover {
-	background: #fff url(../storage/images/slider-prev-blue.svg) 50% 50% no-repeat;
+	background: #fff url(../images/slider-prev-blue.svg) 50% 50% no-repeat;
 	opacity: 1;
 }
 .slider-banner .slick-next {
-	background: url(../storage/images/slider-next-white.svg) 50% 50% no-repeat;
+	background: url(../images/slider-next-white.svg) 50% 50% no-repeat;
 	right: calc(50% - 700px);
 }
 .slider-banner .slick-next:hover {
-	background: #fff url(../storage/images/slider-next-blue.svg) 50% 50% no-repeat;
+	background: #fff url(../images/slider-next-blue.svg) 50% 50% no-repeat;
 	opacity: 1;
 }
 .block-benefits {
@@ -660,26 +660,26 @@ h2.title b {
 	z-index: 10;
 }
 .list-benefits .item-1 .icon:before {
-	background: url(../storage/images/benefit-1.svg) 50% 50% no-repeat;
+	background: url(../images/benefit-1.svg) 50% 50% no-repeat;
 }
 .list-benefits .item-2 .icon:before {
-	background: url(../storage/images/benefit-2.svg) 50% 50% no-repeat;
+	background: url(../images/benefit-2.svg) 50% 50% no-repeat;
 }
 .list-benefits .item-3 .icon:before {
-	background: url(../storage/images/benefit-3.svg) 50% 50% no-repeat;
+	background: url(../images/benefit-3.svg) 50% 50% no-repeat;
 }
 .list-benefits .item-4 .icon:before {
-	background: url(../storage/images/benefit-4.svg) 50% 50% no-repeat;
+	background: url(../images/benefit-4.svg) 50% 50% no-repeat;
 }
 .list-benefits .item-5 .icon:before {
-	background: url(../storage/images/benefit-5.svg) 50% 50% no-repeat;
+	background: url(../images/benefit-5.svg) 50% 50% no-repeat;
 }
 .list-benefits .item-6 .icon:before {
-	background: url(../storage/images/benefit-6.svg) 50% 50% no-repeat;
+	background: url(../images/benefit-6.svg) 50% 50% no-repeat;
 }
 .block-products {
 	padding: 100px 0 200px 0;
-	background: #F4F4F4 url(../storage/images/bottles.png) 50% calc(50% + 80px) no-repeat;
+	background: #F4F4F4 url(../images/bottles.png) 50% calc(50% + 80px) no-repeat;
 }
 .list-products {
 	margin-top: 135px;
@@ -742,7 +742,7 @@ h2.title b {
 	display: block;
 	width: 10px;
 	height: 10px;
-	background: url(../storage/images/calc-umnozh.svg) no-repeat;
+	background: url(../images/calc-umnozh.svg) no-repeat;
 	right: -30px;
 	top: 5px;
 }
@@ -755,7 +755,7 @@ h2.title b {
 	display: block;
 	width: 11px;
 	height: 10px;
-	background: url(../storage/images/calc-ravno.svg) no-repeat;
+	background: url(../images/calc-ravno.svg) no-repeat;
 	left: -30px;
 	top: 9px;
 }
@@ -795,7 +795,7 @@ h2.title b {
 	top: -30px;
 	left: 50%;
 	margin-left: -11px;
-	background: #31519F url(../storage/images/calc-plus.svg) 50% 50% no-repeat;
+	background: #31519F url(../images/calc-plus.svg) 50% 50% no-repeat;
 }
 .list-products .count .count-minus {
 	width: 18px;
@@ -803,7 +803,7 @@ h2.title b {
 	bottom: -27px;
 	left: 50%;
 	margin-left: -9px;
-	background: #31519F url(../storage/images/calc-minus.svg) 50% 50% no-repeat;
+	background: #31519F url(../images/calc-minus.svg) 50% 50% no-repeat;
 }
 .block-promo {
 	padding: 100px 0;
@@ -875,7 +875,7 @@ h2.title b {
 .slider-promo .item-1:after {
 	width: 252px;
 	height: 226px;
-	background: url(../storage/images/promo-1.png) no-repeat;
+	background: url(../images/promo-1.png) no-repeat;
 	top: -26px;
 	right: 10px;
 }
@@ -883,7 +883,7 @@ h2.title b {
 .slider-promo .item-2:after {
 	width: 187px;
 	height: 226px;
-	background: url(../storage/images/promo-2.png) no-repeat;
+	background: url(../images/promo-2.png) no-repeat;
 	top: -26px;
 	right: 10px;
 }
@@ -891,7 +891,7 @@ h2.title b {
 .slider-promo .item-3:after {
 	width: 194px;
 	height: 227px;
-	background: url(../storage/images/promo-3.png) no-repeat;
+	background: url(../images/promo-3.png) no-repeat;
 	top: -27px;
 	right: 10px;
 }
@@ -909,11 +909,11 @@ h2.title b {
 	transition: .2s;
 }
 .slider-promo .slick-prev {
-	background: #FFCF3B url(../storage/images/slider-prev-black.svg) 50% 50% no-repeat;
+	background: #FFCF3B url(../images/slider-prev-black.svg) 50% 50% no-repeat;
 	left: 0;
 }
 .slider-promo .slick-next {
-	background: #FFCF3B url(../storage/images/slider-next-black.svg) 50% 50% no-repeat;
+	background: #FFCF3B url(../images/slider-next-black.svg) 50% 50% no-repeat;
 	right: 0;
 }
 .slider-promo .slick-arrow:hover {
@@ -983,10 +983,10 @@ h2.title b {
 	display: inline-block;
 	width: 13px;
 	height: 12px;
-	background: url(../storage/images/star.svg) no-repeat;
+	background: url(../images/star.svg) no-repeat;
 }
 .list-reviews .item .stars i.active {
-	background: url(../storage/images/star-active.svg) no-repeat;
+	background: url(../images/star-active.svg) no-repeat;
 }
 .block-reviews .button {
 	text-align: center;
@@ -1082,19 +1082,19 @@ h2.title b {
 	margin-top: 15px;
 }
 .footer .phones a.tel {
-	background: url(../storage/images/contacts-tel.svg) 0 0 no-repeat;
+	background: url(../images/contacts-tel.svg) 0 0 no-repeat;
 }
 .footer .phones a.vb {
-	background: url(../storage/images/contacts-vb.svg) 0 0 no-repeat;
+	background: url(../images/contacts-vb.svg) 0 0 no-repeat;
 }
 .footer .phones a.ks {
-	background: url(../storage/images/contacts-ks.svg) 0 0 no-repeat;
+	background: url(../images/contacts-ks.svg) 0 0 no-repeat;
 }
 .footer .phones a.lc {
-	background: url(../storage/images/contacts-lc.svg) 0 0 no-repeat;
+	background: url(../images/contacts-lc.svg) 0 0 no-repeat;
 }
 .footer .phones a.vf {
-	background: url(../storage/images/contacts-vf.svg) 0 0 no-repeat;
+	background: url(../images/contacts-vf.svg) 0 0 no-repeat;
 }
 .footer .callback {
 	text-align: right;
@@ -1121,16 +1121,16 @@ h2.title b {
 	border-color: #fff;
 }
 .footer .callback .social a.fb {
-	background: url(../storage/images/soc-fb.svg) 50% 50% no-repeat;
+	background: url(../images/soc-fb.svg) 50% 50% no-repeat;
 }
 .footer .callback .social a.insta {
-	background: url(../storage/images/soc-insta.svg) 50% 50% no-repeat;
+	background: url(../images/soc-insta.svg) 50% 50% no-repeat;
 }
 .footer .callback .social a.fb:hover {
-	background: #fff url(../storage/images/soc-fb-h.svg) 50% 50% no-repeat;
+	background: #fff url(../images/soc-fb-h.svg) 50% 50% no-repeat;
 }
 .footer .callback .social a.insta:hover {
-	background: #fff url(../storage/images/soc-insta-h.svg) 50% 50% no-repeat;
+	background: #fff url(../images/soc-insta-h.svg) 50% 50% no-repeat;
 }
 .header-mob {
 	padding: 20px;
@@ -1364,7 +1364,7 @@ h2.title b {
 .search button {
 	width: 46px;
 	height: 46px;
-	background: url(../storage/images/ico-search.png) 50% 50% no-repeat;
+	background: url(../images/ico-search.png) 50% 50% no-repeat;
 	position: absolute;
 	top: 2px;
 	right: 2px;
@@ -1491,11 +1491,11 @@ h2.title b {
 	top: 50%;
 	margin-top: -8px;
 	right: 15px;
-	background: url(../storage/images/page-arrow.png) no-repeat;
+	background: url(../images/page-arrow.png) no-repeat;
 }
 .woocommerce nav.woocommerce-pagination a.next:hover:before,
 .pagination a.next:hover:before {
-	background: url(../storage/images/page-arrow-h.png) no-repeat;
+	background: url(../images/page-arrow-h.png) no-repeat;
 }
 .woocommerce nav.woocommerce-pagination a.prev:before,
 .pagination a.prev:before {
@@ -1507,12 +1507,12 @@ h2.title b {
 	top: 50%;
 	margin-top: -8px;
 	left: 15px;
-	background: url(../storage/images/page-arrow.png) no-repeat;
+	background: url(../images/page-arrow.png) no-repeat;
 	transform: rotate(180deg);
 }
 .woocommerce nav.woocommerce-pagination a.prev:hover:before,
 .pagination a.prev:hover:before {
-	background: url(../storage/images/page-arrow-h.png) no-repeat;
+	background: url(../images/page-arrow-h.png) no-repeat;
 }
 .content-article h1 {
 	font-size: 28px;
@@ -2154,16 +2154,16 @@ span.wpcf7-not-valid-tip {
     align-items: center;
 }
 .delivery-steps .item-1 {
-	background: #31519F url(../storage/images/ico-step-1.png) 10px 50% no-repeat;
+	background: #31519F url(../images/ico-step-1.png) 10px 50% no-repeat;
 }
 .delivery-steps .item-2 {
-	background: #31519F url(../storage/images/ico-step-2.png) 10px 50% no-repeat;
+	background: #31519F url(../images/ico-step-2.png) 10px 50% no-repeat;
 }
 .delivery-steps .item-3 {
-	background: #31519F url(../storage/images/ico-step-3.png) 10px 50% no-repeat;
+	background: #31519F url(../images/ico-step-3.png) 10px 50% no-repeat;
 }
 .delivery-steps .item-4 {
-	background: #31519F url(../storage/images/ico-step-4.png) 10px 50% no-repeat;
+	background: #31519F url(../images/ico-step-4.png) 10px 50% no-repeat;
 }
 .content-contacts .map {
 	position: relative;
@@ -2232,31 +2232,31 @@ span.wpcf7-not-valid-tip {
 	margin-top: 30px !important;
 }
 .list-kapli li:nth-child(1) {
-	background: url(../storage/images/kapli-1.png) 0 0 no-repeat;
+	background: url(../images/kapli-1.png) 0 0 no-repeat;
 }
 .list-kapli li:nth-child(2) {
-	background: url(../storage/images/kapli-2.png) 0 0 no-repeat;
+	background: url(../images/kapli-2.png) 0 0 no-repeat;
 }
 .list-kapli li:nth-child(3) {
-	background: url(../storage/images/kapli-3.png) 0 0 no-repeat;
+	background: url(../images/kapli-3.png) 0 0 no-repeat;
 }
 .list-kapli li:nth-child(4) {
-	background: url(../storage/images/kapli-4.png) 0 0 no-repeat;
+	background: url(../images/kapli-4.png) 0 0 no-repeat;
 }
 .list-kapli li:nth-child(5) {
-	background: url(../storage/images/kapli-5.png) 0 0 no-repeat;
+	background: url(../images/kapli-5.png) 0 0 no-repeat;
 }
 .list-kapli li:nth-child(6) {
-	background: url(../storage/images/kapli-6.png) 0 0 no-repeat;
+	background: url(../images/kapli-6.png) 0 0 no-repeat;
 }
 .list-kapli li:nth-child(7) {
-	background: url(../storage/images/kapli-7.png) 0 0 no-repeat;
+	background: url(../images/kapli-7.png) 0 0 no-repeat;
 }
 .list-kapli li:nth-child(8) {
-	background: url(../storage/images/kapli-8.png) 0 0 no-repeat;
+	background: url(../images/kapli-8.png) 0 0 no-repeat;
 }
 .list-kapli li:nth-child(9) {
-	background: url(../storage/images/kapli-9.png) 0 0 no-repeat;
+	background: url(../images/kapli-9.png) 0 0 no-repeat;
 }
 .list-certs {
 	margin-bottom: 30px;
@@ -2310,7 +2310,7 @@ span.wpcf7-not-valid-tip {
     top: 35%;
     padding-left: 60px;
     height: 60px;
-    background: url(../storage/images/cart.png) no-repeat;
+    background: url(../images/cart.png) no-repeat;
     color: #fff;
     text-decoration: none;
 }
@@ -2322,7 +2322,7 @@ span.wpcf7-not-valid-tip {
     top: 45%;
     padding-left: 60px;
     height: 60px;
-    background: url(../storage/images/callback.png) no-repeat;
+    background: url(../images/callback.png) no-repeat;
     color: #fff;
     text-decoration: none;
 }
@@ -2668,7 +2668,7 @@ nav.woocommerce-MyAccount-navigation {
     position: relative;
     width: 200px;
     height: 350px;
-    background: url(../storage/images/botlte.png);
+    background: url(../images/botlte.png);
     background-size: cover;
     background-position: center bottom;
     display: inline-block;
@@ -2980,7 +2980,7 @@ nav.woocommerce-MyAccount-navigation {
 		position: relative;
 	}
 	.slider-banner .item-1 {
-		background: url(../storage/images/banner-1-mob.jpg) 28% 0 no-repeat;
+		background: url(../images/banner-1-mob.jpg) 28% 0 no-repeat;
 	}
 	.slider-banner .item-2 {
 		background-position: 60% 0;
@@ -3026,7 +3026,7 @@ nav.woocommerce-MyAccount-navigation {
 	}
 
 	.slider-banner .item-1 {
-		background: url(../storage/images/banner-1-mob.jpg) 34% 0 no-repeat;
+		background: url(../images/banner-1-mob.jpg) 34% 0 no-repeat;
 	}
 	.list-products {
 		display: block;
@@ -3135,7 +3135,7 @@ nav.woocommerce-MyAccount-navigation {
 
 @media (max-width: 650px) {
 	.slider-banner .item-1 {
-		background: url(../storage/images/banner-1-mob.jpg) 40% 0 no-repeat;
+		background: url(../images/banner-1-mob.jpg) 40% 0 no-repeat;
 	}
 	
 	.slider-promo {
@@ -3197,7 +3197,7 @@ nav.woocommerce-MyAccount-navigation {
 		width: 50px;
 	}
 	.slider-banner .item-1 {
-		background: url(../storage/images/banner-1-mob.jpg) 45% 0 no-repeat;
+		background: url(../images/banner-1-mob.jpg) 45% 0 no-repeat;
 	}
 	.header-mob .lang {
 		display: none;
