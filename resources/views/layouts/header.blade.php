@@ -14,7 +14,7 @@
                 <a href="https://aquapro.ua">
                     <img src="https://aquapro.ua/wp-content/themes/aquapro/images/logo.png" alt="" />
                 </a>
-			</div>
+			</div> <a href=""></a>
 			<div class="right">
 				<div class="prifile">
 									<a href="{{route('login')}}"><img src="https://image.flaticon.com/icons/svg/1077/1077114.svg" alt=""> Увійти</a>

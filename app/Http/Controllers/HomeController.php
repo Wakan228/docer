@@ -28,7 +28,7 @@ class HomeController extends Controller
 
     static function aboutCompany(){
         //return view('app/aboutCompany');
-        dd(Product::get_flow_by_auth());
+        dd(Product::get_flow_by_auth());dd('null');
    }
    static function aboutWater(){
         return view('app/aboutWater');
@@ -44,7 +44,7 @@ class HomeController extends Controller
    }
    static function stock(){
         return view('app/stock');
-   }
+   } function ssd (){echo 'like';}
    static function store(){
         return view('app/store');
    }
