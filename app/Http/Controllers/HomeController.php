@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\Product as Product;
 class HomeController extends Controller
 {
     /**
@@ -27,7 +27,8 @@ class HomeController extends Controller
     }
 
     static function aboutCompany(){
-        return view('app/aboutCompany');
+        //return view('app/aboutCompany');
+        dd(Product::get_flow_by_auth());
    }
    static function aboutWater(){
         return view('app/aboutWater');

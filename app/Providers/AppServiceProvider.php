@@ -19,6 +19,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        // Model::preventLazyLoading(!app()->isProduction());
+        // Model::preventSilentlyDiscordingAttributes(!app()->isProduction());
+        //DB::whenQueryingForLongerThan(500, function (Connection $connection, QueryExecuted $event) {
+            // Notify development team...
+        // });
+
     }
 }
