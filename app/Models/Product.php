@@ -17,14 +17,14 @@ class Product extends Model
     
 
 
-    // protected function boot() 
-    // {
-    //     parrent::boot();
+    protected function boot() 
+    {
+        parrent::boot();
 
-    //     static::creating(function (Brand $brand) {
-    //         $brand->slug = $brand->slug ?? str($brand->title)->slug();
-    //     });
-    // }
+        static::creating(function (Brand $brand) {
+            $brand->slug = $brand->slug ?? str($brand->title)->slug();
+        });
+    }
 
 
 }
